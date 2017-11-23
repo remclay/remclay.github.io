@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: <div>position
 header-img: img/home-bg.png
 email: remmy.lauren@gmail.com
 copyright_name: remclay
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Litigation lawyer turned aspiring web developer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  remclay
