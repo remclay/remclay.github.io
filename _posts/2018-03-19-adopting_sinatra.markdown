@@ -6,8 +6,6 @@ permalink:  adopting_sinatra
 ---
 
 
-[https://github.com/remclay/adopt-a-dog](http://)
-
 Approaching my first portfolio project, I was slightly apprehensive, having never created something from conception to publication. Approaching my second, I was excited.
 
 Picking a topic was a no-brainer. The Sinatra Portfolio Project overview read “The app should be a custom app that is created to track something important to you.“ I decided to make a web app for tracking dogs available for adoption.
@@ -50,4 +48,6 @@ In future, I would like to add further, cleaner validation to my app. The use of
 For this project, I decided to use bootstrap and implement some styling, but nothing too crazy. I plan on delving further and further into HTML and CSS on each project. Plus, I can always come back and improve this one!
 
 I have added some basic logic into the DogsController to ensure a new breed does not get created if one by the same name already exists (if, for example, the user has accidentally opted to create a new breed rather than selecting the relevant checkbox for that breed). In future, this functionality should be extended to cover capitalization, etc, and could potentially be moved into a helper method or into the BreedsController.  In the interim, the Breeds class will still require some periodic manual intervention.
+
+[https://github.com/remclay/adopt-a-dog](http://)
 
