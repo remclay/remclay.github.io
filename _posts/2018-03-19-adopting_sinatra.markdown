@@ -6,7 +6,7 @@ permalink:  adopting_sinatra
 ---
 
 
-https://github.com/remclay/adopt-a-dog
+[https://github.com/remclay/adopt-a-dog](http://)
 
 Approaching my first portfolio project, I was slightly apprehensive, having never created something from conception to publication. Approaching my second, I was excited.
 
