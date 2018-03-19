@@ -16,7 +16,7 @@ Setting up the models and routes were easy enough, having had plenty of practice
 
 Users can easily associate (or disassociate) dogs with certain breeds by checking (or unchecking) boxes, or opt to create a new breed altogether while creating a new dog post or editing an existing one. I ultimately decided not to put any CRUD actions in my BreedsController, as it didn’t make sense to allow a user to edit or delete a breed which other users may have already assigned to other dogs.
 
-#### Beware of the bad data
+## Beware of the bad data
 
 An important lesson I learned about working with databases is not to be fooled by bad data.
 
@@ -33,15 +33,15 @@ It was hours later, logged in as a different test user, that I discovered the er
 
 Time poorly spent, lesson learned!
 
-#### Drop those tables!
+## Drop those tables!
 
 Deleting my database tables and starting again proved invaluable. It was a sound reminder to build out logic and views for when there is no data in the database - a situation I otherwise may have overlooked. Creating seed data also saved me a lot of time, and is a simple but convenient feature for future users testing the app.
 
-#### Branch out
+## Branch out
 
 One feature of GitHub I wish I had utilized is using branches when building out a new feature. By the time I added my additional functionality, I was relatively confident I knew what I was doing and that it was a feature I wanted to keep, so branching did not even cross my mind. However, it’s a habit I want to get into. It’s good practice and will me prepare for working on projects with others. Next time!
 
-#### Teaching an old dog new tricks
+## Teaching an old dog new tricks
 
 Now that my models, views and controllers are set up, adding additional content (such as dog location, gender, price, etc.) is relatively quick and easy.
 
