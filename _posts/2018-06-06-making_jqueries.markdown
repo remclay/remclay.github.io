@@ -1,9 +1,11 @@
 ---
 layout: post
 title:      "Making jQueries"
-date:       2018-06-06 04:31:57 +0000
+date:       2018-06-06 00:31:58 -0400
 permalink:  making_jqueries
 ---
+
+My most recent portfolio project involved adding a jQuery front-end to my existing Rails app.
 
 There were some real ups and downs during this project. It wasn’t necessarily that I struggled to get things working, rather that I didn’t do them the most efficient way the first time around.
 
