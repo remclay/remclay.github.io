@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Passing data up and down the React component hierarchy"
-date:       2018-06-20 04:21:43 +0000
+date:       2018-06-20 00:21:44 -0400
 permalink:  passing_data_up_and_down_the_react_component_hierarchy
 ---
 
 
-Generally speaking, the fewer components in your React app that maintain state, the better. So such, understanding how to pass data between the components that do maintain state and those that don’t is essential to building an efficient, reliable React app.
+Generally speaking, the fewer components in your React app that maintain state, the better. As such, understanding how to pass data between the components that do maintain state and those that don’t is essential to building an efficient, reliable React app.
 
 React has *“top-down”* data flow (aka “unidirectional” data flow, one-way data flow, one-way binding). Among other things, this improves performance, makes debugging easier, and keeps everything modular. However, we often need data flow in the *“bottom-up”* direction. The flow of data from child to parent in React is explicit. Implementing it requires a few extra lines of code, but is relatively straightforward once you understand how components can pass data to one another.
 
@@ -56,13 +56,13 @@ class PetListContainer extends React.Component {
 
 *import and export lines, rendering PetListContainer to DOM etc omitted
 
-The component fetches some data from an API, and updates the state accordingly. It might have a similar function for fetching the filters. It also responds to user input (the the user selecting a filter) and updates state accordingly. It also renders the two child components.
+The component fetches some data from an API, and updates the state accordingly. It might have a similar function for fetching the filters. It also responds to user input (the user selecting a filter) and updates state accordingly. It also renders the two child components.
 
 Let’s first look at the `FilteredPetList` component.
 
 ### Passing *state* to child components
 
-We said our container component is responsible for updating and maintaining state. As such, for our `PetList `component we can defined a stateless functional component.
+We said our container component is responsible for updating and maintaining state. As such, for our `PetList `component we can define a stateless functional component.
 
 ```
 const FilteredPetList = ({ currentFilter, pets }) => {
